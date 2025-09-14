@@ -1,4 +1,7 @@
-game.Loaded:Wait()
+local main = [[
+
+if not game:IsLoaded() then
+    game.Loaded:Wait()
 end
 
 if _G.Executed then
