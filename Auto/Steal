@@ -1,5 +1,4 @@
-
-    game.Loaded:Wait()
+game.Loaded:Wait()
 end
 
 if _G.Executed then
